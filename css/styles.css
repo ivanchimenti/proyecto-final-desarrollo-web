@@ -1,0 +1,144 @@
+/* Fuente titulos */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+/* Fuente parrafos */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.derechos-reservados, footer, header .navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #FFFEB2;
+  position: sticky;
+  top: -0.5px;
+  z-index: 11;
+}
+footer {
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer div {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.redes-sociales {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.redes-sociales i {
+  color: #030CB0;
+  font-size: 50px;
+  padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #030CB0;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 8px;
+  animation: pulse;
+  animation-duration: 1.5s;
+  padding: 15px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 650px;
+}
+
+.carousel-inner {
+  height: 650px;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.descr-video {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imagenes-abajo {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.img1:hover, .img2:hover, .img3:hover {
+  transform: scale(1.5);
+  transition: all 1.5s;
+  z-index: 10;
+}
+
+/* MAIN */
+main .productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .productos img {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+/* FIN MAIN */
+/* MAIN */
+main h2 {
+  text-align: center;
+  color: #030CB0;
+  font-family: "Otomanopee One", sans-serif;
+  padding-top: 20px;
+}
+main .info-adicional.nosotros {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  color: #030CB0;
+  text-align: center;
+  margin: 15px 45px;
+  padding-bottom: 15px;
+}
+
+/* FIN MAIN */
+/* MAIN */
+/* FORMULARIO DE CONTACTO */
+/* FIN MAIN */
+/* MAIN */
+/* FIN MAIN */
+/* Mobile */
+@media only screen and (max-width: 740px) {
+  body {
+    background-image: linear-gradient(to top, #ff6666, #f8f9fa);
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 741px) and (max-width: 1370px) {
+  body {
+    background-image: linear-gradient(to top, #66ff73, #f8f9fa);
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1371px) {
+  body {
+    background-image: linear-gradient(to top, #66e0ff, #f8f9fa);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

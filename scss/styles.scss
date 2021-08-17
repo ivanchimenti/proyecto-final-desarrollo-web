@@ -1,0 +1,83 @@
+/* Fuente titulos */
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+/* Fuente parrafos */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@import 'base/maps';
+@import 'base/extends';
+@import 'base/colors';
+@import 'base/condition';
+@import 'componentes/header';
+@import 'componentes/footer';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // background-color: #FFFEB2 ;
+    background-color: #f8f9fa;
+}
+
+// INDEX.HTML
+@import 'componentes/main';
+@import 'componentes/carousel';
+@import 'componentes/section-two';
+@import 'componentes/section-three';
+// FIN INDEX.HTML
+
+
+// SECCION1.HTML = PRODUCTOS
+/* MAIN */
+main {
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .productos img {
+        width: 400px;
+        height: 400px;
+        margin: 10px;
+    }
+}
+/* FIN MAIN */
+
+
+// SECCION2.HTML = NOSOTROS
+/* MAIN */
+main {
+    h2 {
+        text-align: center;
+        color: #030CB0;
+        font-family: 'Otomanopee One', sans-serif;
+        padding-top: 20px;
+    }
+
+    .info-adicional.nosotros {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 25px;
+        color: #030CB0;
+        text-align: center;
+        margin: 15px 45px;
+        padding-bottom: 15px;
+    }
+}
+/* FIN MAIN */
+
+// SECCION3.HTML = CONTACTO
+/* MAIN */
+/* FORMULARIO DE CONTACTO */
+/* FIN MAIN */
+
+
+// SECCION4.HTML = PREGUNTAS FRECUENTES
+/* MAIN */
+
+/* FIN MAIN */
+
+
+
+// MEDIAS QUERY
+@import 'base/medias-query';

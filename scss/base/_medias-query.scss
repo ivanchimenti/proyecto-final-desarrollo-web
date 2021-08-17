@@ -1,0 +1,21 @@
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    body {
+        background-image: linear-gradient(to top, lighten(rgb(255, 0, 0), 20%), #f8f9fa);
+    }
+    
+}
+
+/* Tablet */
+@media only screen and (min-width: 741px) and (max-width: 1370px) {
+    body {
+        background-image: linear-gradient(to top, lighten(rgb(0, 255, 21), 20%), #f8f9fa);
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1371px) {
+    body {
+        background-image: linear-gradient(to top, lighten(rgb(0, 204, 255), 20%), #f8f9fa);
+    }
+}

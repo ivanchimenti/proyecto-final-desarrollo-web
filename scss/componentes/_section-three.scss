@@ -1,0 +1,19 @@
+// .info-adicional {
+//     font-family: 'Source Sans Pro', sans-serif;
+//     color: #030CB0;
+//     text-align: center;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+// }
+
+.imagenes-abajo {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.img1:hover, .img2:hover, .img3:hover {
+    transform: scale(1.5);
+    transition: all 1.5s;
+    z-index: 10;
+}
