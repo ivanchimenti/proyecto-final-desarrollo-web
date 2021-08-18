@@ -119,6 +119,13 @@ main .info-adicional.nosotros {
 /* FIN MAIN */
 /* MAIN */
 /* FORMULARIO DE CONTACTO */
+.form-horizontal {
+  padding-left: 25%;
+}
+.form-horizontal .form-group:nth-child(6) {
+  padding-right: 35%;
+}
+
 /* FIN MAIN */
 /* MAIN */
 /* FIN MAIN */
@@ -126,6 +133,12 @@ main .info-adicional.nosotros {
 @media only screen and (max-width: 740px) {
   body {
     background-image: linear-gradient(to top, #ff6666, #f8f9fa);
+  }
+  body .form-horizontal {
+    padding-left: 5%;
+  }
+  body .form-horizontal .form-group:nth-child(6) {
+    padding-right: 5%;
   }
 }
 /* Tablet */
