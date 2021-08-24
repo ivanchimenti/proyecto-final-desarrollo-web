@@ -5,7 +5,6 @@
 
 @import 'base/maps';
 @import 'base/extends';
-@import 'base/colors';
 @import 'base/condition';
 @import 'componentes/header';
 @import 'componentes/footer';
@@ -32,14 +31,20 @@ body {
 /* MAIN */
 main {
     .productos {
-        display: flex;
-        flex-wrap: wrap;
-    }
+        #vehiculos, #nenas, #clasicos, #primera-infancia, #blockis, #juegos-y-juguetes, #playa, #disney {
+            height: 50px;
+        }
 
-    .productos img {
-        width: 400px;
-        height: 400px;
-        margin: 10px;
+        .fotos-productos {
+            @extend %flexbox;
+            flex-wrap: wrap;
+    
+            img {
+            width: 350px;
+            height: 300px;
+            margin: 10px;
+            }
+        }
     }
 }
 /* FIN MAIN */
@@ -83,8 +88,6 @@ main {
 /* MAIN */
 
 /* FIN MAIN */
-
-
 
 // MEDIAS QUERY
 @import 'base/medias-query';

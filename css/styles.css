@@ -2,13 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 /* Fuente parrafos */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-.derechos-reservados, footer, header .navbar-nav {
+main .productos .fotos-productos, .derechos-reservados, footer, header .navbar-nav {
   display: flex;
   justify-content: space-around;
 }
 
 header {
-  background-color: #FFFEB2;
   position: sticky;
   top: -0.5px;
   z-index: 11;
@@ -63,21 +62,9 @@ h1 {
   height: 650px;
 }
 
-.videos {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20px;
-}
-
-.descr-video {
-  font-size: 20px;
-  font-style: italic;
-  text-align: center;
-  padding-top: 20px;
-}
-
 .imagenes-abajo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 40px;
 }
@@ -89,13 +76,15 @@ h1 {
 }
 
 /* MAIN */
-main .productos {
-  display: flex;
+main .productos #vehiculos, main .productos #nenas, main .productos #clasicos, main .productos #primera-infancia, main .productos #blockis, main .productos #juegos-y-juguetes, main .productos #playa, main .productos #disney {
+  height: 50px;
+}
+main .productos .fotos-productos {
   flex-wrap: wrap;
 }
-main .productos img {
-  width: 400px;
-  height: 400px;
+main .productos .fotos-productos img {
+  width: 350px;
+  height: 300px;
   margin: 10px;
 }
 
