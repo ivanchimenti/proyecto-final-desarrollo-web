@@ -76,7 +76,7 @@ h1 {
 }
 
 /* MAIN */
-main .productos #vehiculos, main .productos #nenas, main .productos #clasicos, main .productos #primera-infancia, main .productos #blockis, main .productos #juegos-y-juguetes, main .productos #playa, main .productos #disney {
+main .productos #vehiculos, main .productos #grosso, main .productos #nenas, main .productos #clasicos, main .productos #primera-infancia, main .productos #blockis, main .productos #juegos-y-juguetes, main .productos #playa, main .productos #disney {
   height: 50px;
 }
 main .productos .fotos-productos {
