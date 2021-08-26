@@ -76,7 +76,7 @@ h1 {
 }
 
 /* MAIN */
-main .productos #vehiculos, main .productos #grosso, main .productos #nenas, main .productos #clasicos, main .productos #primera-infancia, main .productos #blockis, main .productos #juegos-y-juguetes, main .productos #playa, main .productos #disney {
+main .productos #vehiculos, main .productos #grosso, main .productos #hogar, main .productos #clasicos, main .productos #primera-infancia, main .productos #blockis, main .productos #juegos-y-juguetes, main .productos #playa, main .productos #disney {
   height: 50px;
 }
 main .productos .fotos-productos {
@@ -108,11 +108,11 @@ main .info-adicional.nosotros {
 /* FIN MAIN */
 /* MAIN */
 /* FORMULARIO DE CONTACTO */
-.form-horizontal {
-  padding-left: 25%;
+.site-section .section-title {
+  padding-top: 0px;
 }
-.form-horizontal .form-group:nth-child(6) {
-  padding-right: 35%;
+.site-section .fas {
+  padding-right: 5px;
 }
 
 /* FIN MAIN */

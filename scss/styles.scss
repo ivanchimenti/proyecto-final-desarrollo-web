@@ -31,7 +31,7 @@ body {
 /* MAIN */
 main {
     .productos {
-        #vehiculos, #grosso, #nenas, #clasicos, #primera-infancia, #blockis, #juegos-y-juguetes, #playa, #disney {
+        #vehiculos, #grosso, #hogar, #clasicos, #primera-infancia, #blockis, #juegos-y-juguetes, #playa, #disney {
             height: 50px;
         }
 
@@ -74,11 +74,14 @@ main {
 // SECCION3.HTML = CONTACTO
 /* MAIN */
 /* FORMULARIO DE CONTACTO */
-.form-horizontal {
-    padding-left: 25%;
+.site-section {
 
-    .form-group:nth-child(6) {
-        padding-right: 35%;
+    .section-title {
+        padding-top: 0px;
+    }
+
+    .fas {
+        padding-right: 5px;
     }
 }
 /* FIN MAIN */
