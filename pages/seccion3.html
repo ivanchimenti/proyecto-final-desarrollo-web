@@ -82,44 +82,44 @@
       <!-- Formulario de contacto -->
       <div class="site-section" id="contact-section">
         <div class="container">
-          <div class="row mb-5">
-            <!-- <div class="col-12 text-center">
+          <div class="row m-3">
+            <div class="col-12 text-center">
               <h2 class="section-title mb-3">Envianos tu consulta</h2>
-            </div> -->
+            </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-lg-7 mb-5">
-              <form method="POST" action="enviar.php" class="p-5" id="contact-form" name="contact-form" style="border: 1px solid black;">
+            <div class="col-lg-7 mb-3">
+              <form method="POST" action="enviar.php" id="contact-form" name="contact-form">
                 <!-- <h2 class="h4 text-black mb-5">Contacto</h2>  -->
-                <h2 class="section-title mb-3">Envianos tu consulta</h2>
+                <!-- <h2 class="section-title mb-3">Envianos tu consulta</h2> -->
                 <div class="row form-group">
-                  <div class="col-md-12 mb-3 mb-md-0">
-                    <label class="text-black" for="fname"><i class="fas fa-user"></i>Nombre</label>
-                    <input type="text" id="fname" class="form-control" name="nombre" required="">
+                  <div class="col-md-12 mb-3 mb-md-0 d-flex align-items-center pb-3">
+                    <label class="text-black" for="fname"><i class="fas fa-user"></i></label>
+                    <input type="text" id="fname" class="form-control" name="nombre" required="active" placeholder="Nombre">
                   </div>
                 </div>
                 <div class="row form-group">
-                  <div class="col-md-12 mb-3 mb-md-0">
-                    <label class="text-black" for="fsurname"><i class="fas fa-user"></i>Apellido</label>
-                    <input type="text" id="fsurname" class="form-control" name="apellido" required="">
+                  <div class="col-md-12 mb-3 mb-md-0 d-flex align-items-center pb-3">
+                    <label class="text-black" for="fsurname"><i class="fas fa-user iconito"></i></label>
+                    <input type="text" id="fsurname" class="form-control" name="apellido" required="active" placeholder="Apellido">
                   </div>
                 </div>
                 <div class="row form-group">
-                  <div class="col-md-12">
-                    <label class="text-black" for="email"><i class="fas fa-envelope"></i>Email</label> 
-                    <input type="email" id="email" class="form-control" name="email">
+                  <div class="col-md-12 d-flex align-items-center pb-3">
+                    <label class="text-black" for="email"><i class="fas fa-envelope"></i></label> 
+                    <input type="email" id="email" class="form-control" name="email" required="active" placeholder="Email">
                   </div>
                 </div>
                 <div class="row form-group">
-                  <div class="col-md-12">
-                    <label class="text-black" for="subject"><i class="fas fa-question-circle"></i>Asunto</label> 
-                    <input type="subject" id="subject" class="form-control">
+                  <div class="col-md-12 d-flex align-items-center pb-3">
+                    <label class="text-black" for="subject"><i class="fas fa-question-circle"></i></label> 
+                    <input type="subject" id="subject" class="form-control" required="active" placeholder="Asunto">
                   </div>
                 </div>
                 <div class="row form-group">
-                  <div class="col-md-12">
-                    <label class="text-black" for="message"><i class="fas fa-edit"></i>Mensaje</label> 
-                    <textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" placeholder=""></textarea>
+                  <div class="col-md-12 d-flex align-items-center pb-3">
+                    <label class="text-black" for="message"><i class="fas fa-edit"></i></label> 
+                    <textarea name="mensaje" id="message" cols="30" rows="7" class="form-control" required="active" placeholder="Escriba su mensaje para nosotros aquí"></textarea>
                   </div>
                 </div>
                 <div class="row form-group">
