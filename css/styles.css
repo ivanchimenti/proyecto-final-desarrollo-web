@@ -20,6 +20,12 @@ footer div {
   text-align: center;
   padding-bottom: 20px;
 }
+footer div img {
+  width: 100%;
+}
+footer div .mapa iframe {
+  width: 100%;
+}
 
 .redes-sociales {
   list-style-type: none;
@@ -42,6 +48,9 @@ body {
 }
 
 h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   color: #030CB0;
   font-family: "Otomanopee One", sans-serif;
   font-size: 80px;
@@ -50,7 +59,6 @@ h1 {
   letter-spacing: 8px;
   animation: pulse;
   animation-duration: 1.5s;
-  padding: 15px;
 }
 
 .carousel-inner img {
@@ -68,8 +76,11 @@ h1 {
   justify-content: space-around;
   padding: 40px;
 }
-
-.img1:hover, .img2:hover, .img3:hover {
+.imagenes-abajo img {
+  width: 250px;
+  height: 250px;
+}
+.imagenes-abajo img:hover {
   transform: scale(1.5);
   transition: all 1.5s;
   z-index: 10;
@@ -83,9 +94,18 @@ main .productos .fotos-productos {
   flex-wrap: wrap;
 }
 main .productos .fotos-productos img {
-  width: 350px;
+  width: 320px;
   height: 300px;
   margin: 10px;
+}
+main .item-fixed {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+}
+main .item-fixed i {
+  color: #030CB0;
+  font-size: 50px;
 }
 
 /* FIN MAIN */
@@ -123,11 +143,8 @@ main .info-adicional.nosotros {
   body {
     background-image: linear-gradient(to top, #ff6666, #f8f9fa);
   }
-  body .form-horizontal {
-    padding-left: 5%;
-  }
-  body .form-horizontal .form-group:nth-child(6) {
-    padding-right: 5%;
+  body h1 {
+    font-size: 200%;
   }
 }
 /* Tablet */

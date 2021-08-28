@@ -1,4 +1,7 @@
 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: #030CB0;
     font-family: 'Otomanopee One', sans-serif;
     font-size: 80px;
@@ -7,5 +10,5 @@ h1 {
     letter-spacing: 8px;
     animation: pulse;
     animation-duration: 1.5s;
-    padding: 15px;
+    //padding: 15px;
 }

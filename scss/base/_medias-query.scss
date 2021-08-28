@@ -3,12 +3,8 @@
     body {
         background-image: linear-gradient(to top, lighten(rgb(255, 0, 0), 20%), #f8f9fa);
 
-        .form-horizontal {
-            padding-left: 5%;
-        
-            .form-group:nth-child(6) {
-                padding-right: 5%;
-            }
+        h1 {
+            font-size: 200%;
         }
     }
     

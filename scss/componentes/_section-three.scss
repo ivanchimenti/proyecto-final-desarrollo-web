@@ -11,10 +11,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px;
+
+    img {
+    width: 250px;
+    height: 250px;
+    }
+
+    img:hover {
+        transform: scale(1.5);
+        transition: all 1.5s;
+        z-index: 10;
+    }
 }
 
-.img1:hover, .img2:hover, .img3:hover {
-    transform: scale(1.5);
-    transition: all 1.5s;
-    z-index: 10;
-}

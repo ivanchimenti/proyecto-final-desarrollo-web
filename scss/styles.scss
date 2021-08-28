@@ -40,10 +40,21 @@ main {
             flex-wrap: wrap;
     
             img {
-            width: 350px;
+            width: 320px;
             height: 300px;
             margin: 10px;
             }
+        }
+    }
+
+    .item-fixed {
+        position: fixed;
+        bottom: 10px;
+        right: 15px;  
+
+        i {
+            color: #030CB0;
+            font-size: 50px;
         }
     }
 }
