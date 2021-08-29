@@ -6,6 +6,15 @@
         h1 {
             font-size: 200%;
         }
+
+        .carousel-inner img {
+            width: 100%;
+            max-height: auto;
+        }
+        
+        .carousel-inner{
+         height: auto;
+        }
     }
     
 }
@@ -14,6 +23,15 @@
 @media only screen and (min-width: 741px) and (max-width: 1370px) {
     body {
         background-image: linear-gradient(to top, lighten(rgb(0, 255, 21), 20%), #f8f9fa);
+
+        .carousel-inner img {
+            width: 100%;
+            max-height: auto;
+        }
+        
+        .carousel-inner{
+         height: auto;
+        }
     }
 }
 

@@ -117,8 +117,10 @@ main h2 {
   padding-top: 20px;
 }
 main .info-adicional.nosotros {
+  display: flex;
+  flex-wrap: wrap;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 25px;
+  font-size: 150%;
   color: #030CB0;
   text-align: center;
   margin: 15px 45px;
@@ -146,11 +148,25 @@ main .info-adicional.nosotros {
   body h1 {
     font-size: 200%;
   }
+  body .carousel-inner img {
+    width: 100%;
+    max-height: auto;
+  }
+  body .carousel-inner {
+    height: auto;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 741px) and (max-width: 1370px) {
   body {
     background-image: linear-gradient(to top, #66ff73, #f8f9fa);
+  }
+  body .carousel-inner img {
+    width: 100%;
+    max-height: auto;
+  }
+  body .carousel-inner {
+    height: auto;
   }
 }
 /* Desktop */
