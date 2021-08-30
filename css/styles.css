@@ -56,7 +56,6 @@ h1 {
   font-size: 80px;
   text-align: center;
   text-decoration: underline;
-  letter-spacing: 8px;
   animation: pulse;
   animation-duration: 1.5s;
 }
@@ -173,6 +172,9 @@ main .info-adicional.nosotros {
 @media only screen and (min-width: 1371px) {
   body {
     background-image: linear-gradient(to top, #66e0ff, #f8f9fa);
+  }
+  body h1 {
+    letter-spacing: 8px;
   }
 }
 

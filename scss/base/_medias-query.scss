@@ -39,5 +39,9 @@
 @media only screen and (min-width: 1371px) {
     body {
         background-image: linear-gradient(to top, lighten(rgb(0, 204, 255), 20%), #f8f9fa);
+
+        h1 {
+            letter-spacing: 8px;
+        }
     }
 }
