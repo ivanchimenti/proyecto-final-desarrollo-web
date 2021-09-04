@@ -38,12 +38,16 @@ main {
         .fotos-productos {
             @extend %flexbox;
             flex-wrap: wrap;
-    
-            img {
-            width: 320px;
-            height: 300px;
-            margin: 10px;
+
+            .card {
+                margin: 10px;
             }
+    
+            // img {
+            // width: 320px;
+            // height: 300px;
+            // margin: 10px;
+            // }
         }
     }
 
