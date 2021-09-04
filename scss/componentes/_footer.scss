@@ -7,6 +7,14 @@ footer {
         text-align: center;
         padding-bottom: 20px;
 
+        // h3 {
+        //     font-family: 'Otomanopee One', sans-serif;
+        // }
+
+        p {
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
         img {
             width: 100%;
         }
@@ -16,22 +24,23 @@ footer {
                 width: 100%;
             }
         }
+
+        .redes-sociales {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding-left: 0px;
+
+            li:nth-child(2) {
+                padding: 0px 30px;
+            }
+        }
+
     }
 
-}
-
-.redes-sociales {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-
-    i {
-        color: #030CB0;
-        font-size: 50px;
-        padding: 10px;
-    }
 }
 
 .derechos-reservados {
     @extend %flexbox;
+    text-align: center;
 }
