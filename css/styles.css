@@ -97,9 +97,7 @@ main .productos #vehiculos, main .productos #grosso, main .productos #hogar, mai
 main .productos .fotos-productos {
   flex-wrap: wrap;
 }
-main .productos .fotos-productos img {
-  width: 320px;
-  height: 300px;
+main .productos .fotos-productos .card {
   margin: 10px;
 }
 main .item-fixed {
