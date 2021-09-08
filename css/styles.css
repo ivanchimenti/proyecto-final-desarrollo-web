@@ -74,30 +74,27 @@ h1 {
   height: 650px;
 }
 
-h2 {
+.bienvenida h2 {
   text-align: center;
   color: #030CB0;
   font-family: "Otomanopee One", sans-serif;
   font-size: 50px;
 }
-
-.carrusel-de-productos {
-  display: inline-flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 4% 3%;
-}
-.carrusel-de-productos img {
-  width: 18%;
-}
-.carrusel-de-productos i {
+.bienvenida p {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 150%;
   color: #030CB0;
-  font-size: 50px;
+  text-align: center;
+  margin: 15px 45px;
+}
+.bienvenida a {
+  display: contents;
 }
 
 h2 {
+  flex-wrap: wrap;
   text-align: center;
   color: #030CB0;
   font-family: "Otomanopee One", sans-serif;
@@ -108,7 +105,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 40px;
+  padding: 20px 0 40px;
 }
 .imagenes-abajo img {
   width: 250px;

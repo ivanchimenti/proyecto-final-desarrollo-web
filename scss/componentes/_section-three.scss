@@ -7,6 +7,7 @@
 // }
 
 h2 {
+    flex-wrap: wrap;
     text-align: center;
     color: #030CB0;
     font-family: 'Otomanopee One', sans-serif;
@@ -17,7 +18,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 40px;
+    padding: 20px 0 40px;
 
     img {
     width: 250px;
