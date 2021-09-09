@@ -1,9 +1,10 @@
 .bienvenida {
     h2 {
+    flex-wrap: wrap;
     text-align: center;
     color: #030CB0;
     font-family: 'Otomanopee One', sans-serif;
-    font-size: 50px;
+    padding-top: 20px;
     }
 
     p {
@@ -20,33 +21,3 @@
         display: contents;
     }
 }
-
-// .novedades {
-//     @extend %flexbox;
-//     flex-wrap: wrap;
-
-//     img {
-//         height: 20%;
-//         width: 20%;
-//         margin: 1%;
-//     }
-// }
-
-// .videos {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//     padding-top: 20px;
-// }
-
-// .descr-video {
-//     font-size: 20px;
-//     font-style: italic;
-//     text-align: center;
-//     padding-top: 20px;
-// }
-
-// .portada {
-//     width: 100%;
-//     margin-top: 2%;
-// }

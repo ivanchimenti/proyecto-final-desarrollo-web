@@ -75,10 +75,11 @@ h1 {
 }
 
 .bienvenida h2 {
+  flex-wrap: wrap;
   text-align: center;
   color: #030CB0;
   font-family: "Otomanopee One", sans-serif;
-  font-size: 50px;
+  padding-top: 20px;
 }
 .bienvenida p {
   display: flex;
@@ -91,14 +92,6 @@ h1 {
 }
 .bienvenida a {
   display: contents;
-}
-
-h2 {
-  flex-wrap: wrap;
-  text-align: center;
-  color: #030CB0;
-  font-family: "Otomanopee One", sans-serif;
-  padding-top: 20px;
 }
 
 .imagenes-abajo {
@@ -176,7 +169,7 @@ main .info-adicional.nosotros {
     font-size: 250%;
   }
   body h2 {
-    font-size: 180%;
+    font-size: 200%;
   }
   body .carousel-inner img {
     width: 100%;
