@@ -63,6 +63,7 @@ h1 {
   text-decoration: underline;
   animation: pulse;
   animation-duration: 1.5s;
+  padding-top: 25px;
 }
 
 .carousel-inner img {
@@ -79,7 +80,7 @@ h1 {
   text-align: center;
   color: #030CB0;
   font-family: "Otomanopee One", sans-serif;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 .bienvenida p {
   display: flex;
