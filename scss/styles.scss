@@ -17,7 +17,6 @@ body {
 }
 
 // INDEX.HTML
-@import 'componentes/main';
 @import 'componentes/carousel';
 @import 'componentes/section-two';
 @import 'componentes/section-three';
@@ -34,7 +33,6 @@ main {
 
         .fotos-productos {
             @extend %flexbox;
-            flex-wrap: wrap;
 
             .card {
                 margin: 10px;
@@ -60,19 +58,15 @@ main {
 /* MAIN */
 main {
     h2 {
-        text-align: center;
-        color: #030CB0;
+        @extend %textos;
         font-family: 'Otomanopee One', sans-serif;
         padding-top: 20px;
     }
 
-    .info-adicional.nosotros {
-        display: flex;
-        flex-wrap: wrap;
+    .nosotros {
+        @extend %textos;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 150%;
-        color: #030CB0;
-        text-align: center;
         margin: 15px 45px;
         padding-bottom: 15px;
     }

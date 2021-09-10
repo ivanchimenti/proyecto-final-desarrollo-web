@@ -1,7 +1,5 @@
 .imagenes-abajo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @extend %flexbox;
     padding: 20px 0 40px;
 
     img {

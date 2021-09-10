@@ -1,19 +1,24 @@
+h1 {
+    @extend %textos;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 80px;
+    text-decoration: underline;
+    animation: pulse;
+    animation-duration: 1.5s;
+    padding-top: 25px;
+}
+
 .bienvenida {
     h2 {
-    flex-wrap: wrap;
-    text-align: center;
-    color: #030CB0;
-    font-family: 'Otomanopee One', sans-serif;
-    padding-top: 25px;
+        @extend %textos;
+        font-family: 'Otomanopee One', sans-serif;
+        padding-top: 25px;
     }
 
     p {
-        display: flex;
-        flex-wrap: wrap;
+        @extend %textos;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 150%;
-        color: #030CB0;
-        text-align: center;
         margin: 15px 45px;
     }
     

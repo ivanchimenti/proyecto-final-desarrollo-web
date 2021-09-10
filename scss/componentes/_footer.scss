@@ -1,11 +1,14 @@
 footer {
     @extend %flexbox;
     align-items: center;
-    flex-wrap: wrap;
     
     div {
         text-align: center;
         padding-bottom: 20px;
+
+        h3 {
+            font-family: 'Otomanopee One', sans-serif;
+        }
         
         p {
             font-family: 'Source Sans Pro', sans-serif;
