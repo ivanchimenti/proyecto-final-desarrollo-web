@@ -1,11 +1,14 @@
 {
-  "name": "proyecto-desafios-iii",
+  "name": "juguetes-luni",
+  "description": "Juegos y Juguetes Luni",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": {
+    "name": "Ivan Chimenti",
+    "email": "ivanchimenti@gmail.com"
+  },
+  "license": "ISC"
 }
