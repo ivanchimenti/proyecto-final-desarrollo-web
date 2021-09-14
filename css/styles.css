@@ -60,15 +60,6 @@ body {
   background-color: #f8f9fa;
 }
 
-.carousel-inner img {
-  width: 100%;
-  max-height: 650px;
-}
-
-.carousel-inner {
-  height: 650px;
-}
-
 h1 {
   font-family: "Otomanopee One", sans-serif;
   font-size: 80px;
@@ -158,10 +149,10 @@ main .nosotros {
   }
   body .carousel-inner img {
     width: 100%;
-    max-height: auto;
+    max-height: 300px;
   }
   body .carousel-inner {
-    height: auto;
+    height: 300px;
   }
 }
 /* Tablet */
@@ -171,10 +162,10 @@ main .nosotros {
   }
   body .carousel-inner img {
     width: 100%;
-    max-height: auto;
+    max-height: 450px;
   }
   body .carousel-inner {
-    height: auto;
+    height: 450px;
   }
 }
 /* Desktop */
@@ -184,6 +175,13 @@ main .nosotros {
   }
   body h1 {
     letter-spacing: 8px;
+  }
+  body .carousel-inner img {
+    width: 100%;
+    max-height: 650px;
+  }
+  body .carousel-inner {
+    height: 650px;
   }
 }
 
