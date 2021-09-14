@@ -149,7 +149,7 @@ main .nosotros {
   }
   body .carousel-inner img {
     width: 100%;
-    max-height: 250px;
+    max-height: 200px;
   }
   body .carousel-inner {
     height: auto;
@@ -162,10 +162,10 @@ main .nosotros {
   }
   body .carousel-inner img {
     width: 100%;
-    max-height: 450px;
+    max-height: 400px;
   }
   body .carousel-inner {
-    height: 450px;
+    height: 400px;
   }
 }
 /* Desktop */
